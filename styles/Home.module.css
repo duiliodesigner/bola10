@@ -1,0 +1,106 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeAssociationLogoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.HomeMenuButton {
+  margin-top: 0.5rem;
+  align-self: flex-start;
+}
+
+.HomeMenu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #ff7700;
+}
+
+.HomeMenuItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.socialLink {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.HomeHeroContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5rem 1.5rem;
+  background: #00d4ff;
+  background: linear-gradient(90deg, #00d4ff 0%, #00669d 100%);
+}
+
+.HomeHeroTitle {
+  width: 70%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.HomeContainerMoreInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.HomeContainerInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.HomeContainerIconAndText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.8rem;
+}
+
+.HomeInfoText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-left: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .HomeMenuButton {
+    display: none;
+  }
+}

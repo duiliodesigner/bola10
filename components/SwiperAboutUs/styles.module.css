@@ -1,0 +1,52 @@
+.SwiperAboutUsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 120.4rem;
+}
+
+.SwiperAboutUsTitle {
+  width: 100%;
+  text-align: center;
+  margin: 5rem 0;
+  font-size: 3rem;
+  color: #102996;
+  font-weight: 600;
+}
+
+.SwiperAboutUsContainerCharacteristics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+
+.SwiperAboutUsText {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.SwiperSwiperContainer {
+  margin-bottom: 3rem;
+}
+
+.SwiperSwiper {
+  width: 100%;
+}
+
+.SwiperSwiperSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 1024) {
+  .SwiperAboutUsTitle,
+  .SwiperAboutEventTitle {
+    margin: 8rem 0;
+  }
+}
